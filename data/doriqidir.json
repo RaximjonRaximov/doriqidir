@@ -1,0 +1,107 @@
+{
+  "pharmacies": [
+    {
+      "id": "p1",
+      "name": "Shifo 24",
+      "area": "Yunusobod",
+      "address": "Amir Temur shoh ko‘chasi, 108",
+      "phone": "+998 71 200 24 24",
+      "openUntil": "24:00"
+    },
+    {
+      "id": "p2",
+      "name": "Mehr Dorixona",
+      "area": "Chilonzor",
+      "address": "Bunyodkor ko‘chasi, 12",
+      "phone": "+998 71 270 11 11",
+      "openUntil": "23:00"
+    },
+    {
+      "id": "p3",
+      "name": "Salomatlik Apteka",
+      "area": "Mirzo Ulug‘bek",
+      "address": "Buyuk Ipak Yo‘li, 45",
+      "phone": "+998 71 268 40 40",
+      "openUntil": "22:00"
+    }
+  ],
+  "medicines": [
+    {
+      "id": "m1",
+      "name": "Paratsetamol 500 mg",
+      "generic": "Paracetamol",
+      "form": "20 tabletka",
+      "requiresPrescription": false,
+      "stocks": [
+        {
+          "pharmacyId": "p1",
+          "price": 8500,
+          "quantity": 42
+        },
+        {
+          "pharmacyId": "p2",
+          "price": 9000,
+          "quantity": 18
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "name": "Amoksitsillin 500 mg",
+      "generic": "Amoxicillin",
+      "form": "20 kapsula",
+      "requiresPrescription": true,
+      "stocks": [
+        {
+          "pharmacyId": "p1",
+          "price": 28000,
+          "quantity": 7
+        },
+        {
+          "pharmacyId": "p3",
+          "price": 30000,
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "name": "Loratadin 10 mg",
+      "generic": "Loratadine",
+      "form": "10 tabletka",
+      "requiresPrescription": false,
+      "stocks": [
+        {
+          "pharmacyId": "p2",
+          "price": 12000,
+          "quantity": 25
+        },
+        {
+          "pharmacyId": "p3",
+          "price": 11500,
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "name": "Vitamin D3 2000 IU",
+      "generic": "Cholecalciferol",
+      "form": "60 kapsula",
+      "requiresPrescription": false,
+      "stocks": [
+        {
+          "pharmacyId": "p1",
+          "price": 42000,
+          "quantity": 14
+        },
+        {
+          "pharmacyId": "p3",
+          "price": 39900,
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "reservations": []
+}
